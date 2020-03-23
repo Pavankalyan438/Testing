@@ -18,7 +18,7 @@ public class LoanRequestDaoTest {
 		String s = dao.loanRequest(bean);
 		assertNotEquals(s, "Loan requested succesfully");
 	}
-
+	//pvan
 	@Test
 	public void testGetAllRequests() {
 		Set d = null;
